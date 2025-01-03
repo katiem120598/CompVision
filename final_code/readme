@@ -1,0 +1,11 @@
+To recreate the results of this report, please take the following steps.
+
+REQUIRED FOR RECREATION OF RESULST
+1. Extract all contents of this zip file into the same location.
+2. In the directory in which these files are stored, run "python test_systematic.py" in your terminal.
+This code will show the resulting images used in the paper as pop-ups. It will also output a csv file with the numerical % errors found in the study. This csv will be entitled "reconstruction_errors_with_noise.csv" if the code is run as is, and it will save over the file used to produce the results in the study. A random seed was not specified, so results may vary between runs (though overall conclusions remain unchanged.)
+
+OPTIONAL FOR MORE EXPLORATION
+1. In the directory in which these files are stored, run "python basis_new.py" in your terminal.
+2. In the directory in which these files are stored, run "python rotation_revised.py" in your terminal.
+** If you would like additional visualizations, you can uncomment lines 65-66 in "basis_new.py" and lines 147-150 in "rotation_revised.py."
